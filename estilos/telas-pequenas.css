@@ -30,9 +30,24 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-     background-color: #ffffff;
-    padding: 8px;
-    border-radius: 12px; /* opcional */
+}
+
+.marca img {
+    width: 48px;
+    height: 48px;
+
+    background: #fff;
+    padding: 4px;
+    border-radius: 10px;
+
+    object-fit: contain;
+}
+
+.foto-estudante img {
+    width:100%;
+    padding: 0;
+    background: transparent;
+    border-radius: 8px;
 }
 
 header {
