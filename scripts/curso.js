@@ -5,7 +5,7 @@ const cursos = [
         title: "Introduction to Programming",
         credits: 2,
         certificate: "Web and Computer Programming",
-        completed: false
+        completed: true
     },
     {
         subject: "WDD",
@@ -21,7 +21,7 @@ const cursos = [
         title: "Programming with Functions",
         credits: 2,
         certificate: "Web and Computer Programming",
-        completed: false
+        completed: true
     },
     {
         subject: "CSE",
