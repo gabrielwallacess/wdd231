@@ -1,11 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Wallacee</title>
+    <meta name="description" content="Página inicial de Gabriel Wallace para o curso WDD 231 - Web Frontend Development I, com atividades, localização e cursos do certificado.">
+    <meta name="author" content="Gabriel Wallace">
+    <title>WDD 231 | Gabriel Wallace</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="estilos/maior.css">
+
+    <script src="scripts/navegacao.js" defer></script>
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/curso.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <div class="cabecalho-conteudo">
+            <a class="marca" href="index.html" aria-label="Página inicial">
+                <img src="imagens/logo.svg" alt="" width="48" height="48">
+                <span>Gabriel Wallace</span>
+            </a>
+
+            <button id="menu" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="navegacao"></button>
+        </div>
+
+        <nav id="navegacao" aria-label="Navegação principal">
+            <ul>
+                <li><a class="ativo" href="index.html" aria-current="page">Página Inicial</a></li>
+                <li><a href="chamber/index.html">Projeto da Câmara</a></li>
+                <li><a href="final/index.html">Projeto Final</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Página Inicial</h1>
+
+        <div class="grade-superior">
+            <section class="cartao trabalhos">
+                <h2>Trabalhos do Curso</h2>
+                <div class="conteudo-cartao">
+                    <p>
+                        Esta página reúne atividades e projetos desenvolvidos durante o
+                        <strong>WDD 231: Web Frontend Development I</strong>.
+                    </p>
+                    <ul>
+                        <li>HTML semântico e acessível</li>
+                        <li>CSS responsivo</li>
+                        <li>JavaScript e manipulação do DOM</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="cartao localizacao">
+                <h2>São Paulo, Brasil</h2>
+                <div class="conteudo-cartao">
+                    <img src="imagens/sao-paulo.svg" alt="Ilustração estilizada do horizonte urbano de São Paulo" width="520" height="300">
+                    <p>São Paulo, SP</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="cartao certificado">
+            <h2>Certificado de Programação de Computadores e Web</h2>
+
+            <div class="filtros" role="group" aria-label="Filtrar cursos">
+                <button class="filtro ativo" type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+                <button class="filtro" type="button" data-filtro="CSE" aria-pressed="false">CSE</button>
+                <button class="filtro" type="button" data-filtro="WDD" aria-pressed="false">WDD</button>
+            </div>
+
+            <div id="cursos" class="grade-cursos" aria-live="polite"></div>
+
+            <p class="creditos">
+                Total de créditos exibidos:
+                <strong><span id="totalCreditos">0</span></strong>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes-sociais" aria-label="Links de mídia social">
+            <a href="https://github.com/gabrielwallacess" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Gabriel Wallace">
+                <img src="imagens/github.svg" alt="" width="34" height="34">
+            </a>
+            <a href="https://www.linkedin.com/in/gabrielwallaces/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Gabriel Wallace">
+                <img src="imagens/linkedin.svg" alt="" width="34" height="34">
+            </a>
+        </div>
+
+        <p>&copy; <span id="anoAtual"></span> Gabriel Wallace | São Paulo, Brasil</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
 </body>
 </html>

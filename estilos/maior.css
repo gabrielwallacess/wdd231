@@ -1,0 +1,56 @@
+@media screen and (min-width: 700px) {
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    nav li {
+        flex: 1;
+    }
+
+    nav a {
+        border-top: 0;
+        min-height: 50px;
+    }
+
+    .grade-superior {
+        grid-template-columns: 2fr 1fr;
+        align-items: stretch;
+    }
+
+    .filtros {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grade-cursos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .cabecalho-conteudo {
+        padding-inline: 0;
+    }
+
+    .marca {
+        font-size: 1.35rem;
+    }
+
+    main {
+        margin-top: 2rem;
+    }
+
+    .conteudo-cartao {
+        padding: 1.25rem;
+    }
+}
