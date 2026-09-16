@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #16324f;
+    --cor-secundaria: #24557a;
+    --cor-clara: #f4f6f8;
+    --cor-texto: #222;
+    --cor-branca: #ffffff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--cor-clara);
+    color: var(--cor-texto);
+    line-height: 1.5;
+}
+
+
+
+header {
+    background: var(--cor-primaria);
+    color: white;
+    padding: 1rem;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-area img {
+    border-radius: 0%;
+}
+
+.logo-area h1 {
+    font-size: 1.3rem;
+}
+
+.logo-area p {
+    font-size: .9rem;
+}
+
+#menu {
+    width: 100%;
+    margin-top: 1rem;
+    padding: .7rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    background: var(--cor-secundaria);
+    color: white;
+}
+
+nav {
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+nav a:hover,
+nav a.active {
+    background: white;
+    color: var(--cor-primaria);
+}
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.botoes-visualizacao {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.botoes-visualizacao button {
+    padding: .8rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    background: var(--cor-primaria);
+    color: white;
+    border-radius: 6px;
+}
+
+.botoes-visualizacao button:hover {
+    background: var(--cor-secundaria);
+}
+
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.card img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    color: var(--cor-primaria);
+    margin-bottom: .5rem;
+}
+
+.card p {
+    margin-bottom: .4rem;
+}
+
+.card a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+
+.lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.lista .card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.lista .card img {
+    display: none;
+}
+
+
+footer {
+    background: var(--cor-primaria);
+    color: white;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+}
+
+footer section {
+    margin-bottom: 1.5rem;
+}
+
+footer h3 {
+    margin-bottom: .5rem;
+}
+
+footer p {
+    margin-bottom: .3rem;
+}
