@@ -1,0 +1,65 @@
+[
+  {
+    "nome": "Itaú Unibanco",
+    "endereco": "Praça Alfredo Egydio de Souza Aranha, 100 - Vila Cruzeiro, São Paulo - SP",
+    "telefone": "0300 100 1213",
+    "site": "https://www.itau.com.br",
+    "imagem": "itau.webp",
+    "nivel": 3,
+    "descricao": "Um dos maiores bancos da América Latina, oferecendo soluções financeiras para pessoas e empresas."
+  },
+  {
+    "nome": "Magazine Luiza",
+    "endereco": "Rua Voluntários da Franca, 1465 - Vila Guilherme, São Paulo - SP",
+    "telefone": "0800 310 0002",
+    "site": "https://www.magazineluiza.com.br",
+    "imagem": "magalu.webp",
+    "nivel": 2,
+    "descricao": "Rede varejista brasileira com atuação em lojas físicas e comércio eletrônico."
+  },
+  {
+    "nome": "Nubank",
+    "endereco": "Rua Capote Valente, 39 - Pinheiros, São Paulo - SP",
+    "telefone": "0800 591 2117",
+    "site": "https://nubank.com.br",
+    "imagem": "nubank.webp",
+    "nivel": 3,
+    "descricao": "Instituição financeira digital especializada em cartões, contas e investimentos."
+  },
+  {
+    "nome": "TOTVS",
+    "endereco": "Avenida Braz Leme, 1000 - Casa Verde, São Paulo - SP",
+    "telefone": "(11) 2099-7100",
+    "site": "https://www.totvs.com",
+    "imagem": "totvs.webp",
+    "nivel": 3,
+    "descricao": "Maior empresa brasileira de desenvolvimento de software de gestão empresarial."
+  },
+  {
+    "nome": "Porto",
+    "endereco": "Alameda Barão de Piracicaba, 618 - Campos Elíseos, São Paulo - SP",
+    "telefone": "0800 727 0800",
+    "site": "https://www.portoseguro.com.br",
+    "imagem": "porto.webp",
+    "nivel": 2,
+    "descricao": "Empresa brasileira referência em seguros, serviços financeiros e assistência."
+  },
+  {
+    "nome": "Localiza",
+    "endereco": "Avenida Paulista, 1499 - Bela Vista, São Paulo - SP",
+    "telefone": "0800 979 2020",
+    "site": "https://www.localiza.com",
+    "imagem": "localiza.webp",
+    "nivel": 1,
+    "descricao": "Empresa especializada em aluguel de carros e gestão de frotas."
+  },
+  {
+    "nome": "Hospital Israelita Albert Einstein",
+    "endereco": "Avenida Albert Einstein, 627 - Morumbi, São Paulo - SP",
+    "telefone": "(11) 2151-1233",
+    "site": "https://www.einstein.br",
+    "imagem": "einstein.webp",
+    "nivel": 3,
+    "descricao": "Hospital privado reconhecido internacionalmente pela excelência em saúde."
+  }
+]

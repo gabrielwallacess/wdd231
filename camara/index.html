@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Câmara de Comércio de São Paulo | Início</title>
+
+    <meta name="description" content="Bem-vindo à Câmara de Comércio de São Paulo. Conheça nossos eventos, empresas associadas e oportunidades de negócios.">
+
+    <meta name="author" content="Gabriel Wallace Soares dos Santos">
+
+    <link rel="icon" href="imagens/favicon.ico">
+
+    <meta property="og:title" content="Câmara de Comércio de São Paulo">
+    <meta property="og:description" content="Conectando empresas e fortalecendo negócios em São Paulo.">
+    <meta property="og:image" content="https://gabrielwallacess.github.io/wdd231/camara/imagens/logo.webp">
+    <meta property="og:url" content="https://gabrielwallacess.github.io/wdd231/camara/index.html">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="estilos/telas-grandes.css">
+
+    <script src="scripts/navegacao.js" defer></script>
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="imagens/logo.webp"
+             alt="Logo da Câmara de Comércio"
+             width="70"
+             height="70">
+
+        <div>
+            <h1>Câmara de Comércio</h1>
+            <p>São Paulo</p>
+        </div>
+
+    </div>
+
+    <button id="menu"
+            aria-label="Abrir Menu"
+            aria-expanded="false"
+            aria-controls="menuNavegacao">
+        ☰
+    </button>
+
+    <nav id="menuNavegacao" aria-label="Menu principal">
+
+        <ul>
+
+            <li><a class="active" href="index.html">Início</a></li>
+
+            <li><a href="diretorio.html">Diretório</a></li>
+
+            <li><a href="descubra.html">Descubra</a></li>
+
+            <li><a href="associar.html">Associe-se</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <img src="imagens/hero.webp"
+             alt="Vista da cidade de São Paulo">
+
+        <a class="cta" href="associar.html">
+            Associe-se Agora
+        </a>
+
+    </section>
+
+    <section class="informacoes">
+
+        <section class="eventos">
+
+            <h2>Eventos</h2>
+
+            <p>Feira de Negócios da Câmara de Comércio.</p>
+
+            <p>Networking Empresarial.</p>
+
+        </section>
+
+        <section class="clima">
+
+    <h2>Clima</h2>
+
+    <img id="icone-clima" 
+         src="" 
+         alt="Condição atual do clima">
+
+    <p>
+        Temperatura:
+        <span id="temperatura"></span>°C
+    </p>
+
+    <p id="descricao-clima"></p>
+
+    <h3>Previsão para 3 dias</h3>
+
+    <div id="previsao"></div>
+
+</section>
+
+    </section>
+
+    <section class="destaques">
+
+        <h2>Empresas em Destaque</h2>
+
+        <div id="spotlights"></div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <section>
+
+        <h3>Câmara de Comércio de São Paulo</h3>
+
+        <p>Av. Paulista, 1000</p>
+
+        <p>São Paulo - SP</p>
+
+        <p>(11) 3333-4444</p>
+
+        <p>contato@camarasp.org.br</p>
+
+    </section>
+
+    <section>
+
+        <p>&copy; <span id="ano"></span> Câmara de Comércio de São Paulo</p>
+
+        <p>Gabriel Wallace Soares dos Santos</p>
+
+        <p>WDD 231</p>
+
+        <p>Última Modificação:
+            <span id="ultimaModificacao"></span>
+        </p>
+
+    </section>
+
+</footer>
+
+</body>
+</html>
