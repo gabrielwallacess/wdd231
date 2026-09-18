@@ -261,9 +261,3 @@ footer p {
     display: block;
 }
 
-#spotlights {
-
-    display: grid;
-    gap: 1rem;
-
-}
