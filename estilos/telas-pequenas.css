@@ -228,6 +228,18 @@ h1 {
     font-weight: 700;
 }
 
+.curso {
+    cursor: pointer;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.curso:hover,
+.curso:focus-visible {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+}
+
+
 .curso.concluido {
     border-color: #6b3a13;
     background: #8b4513;
@@ -307,4 +319,56 @@ button:focus-visible,
 a:focus-visible {
     outline: 3px solid #ffd166;
     outline-offset: 2px;
+}
+
+dialog {
+    border: none;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+    background: var(--branco);
+    color: var(--texto);
+    box-shadow: var(--sombra);
+    position: relative;
+}
+
+dialog::backdrop {
+    background: rgba(0,0,0,.65);
+}
+
+dialog button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: var(--azul-escuro);
+    color: var(--branco);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background .2s ease;
+}
+
+dialog button:hover {
+    background: var(--azul-medio);
+}
+
+dialog h2 {
+    margin-top: 0;
+    color: var(--azul-escuro);
+}
+
+dialog h3 {
+    color: var(--destaque);
+}
+
+dialog strong {
+    color: var(--azul-escuro);
+}
+
+dialog p{
+    margin:.5rem 0;
 }
