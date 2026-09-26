@@ -1,9 +1,3 @@
-// ======================================
-// Câmara de Comércio de São Paulo
-// WDD 231
-// associacao.js
-// ======================================
-
 // Preenche automaticamente o campo oculto
 // com a data e hora em que a página foi carregada.
 
