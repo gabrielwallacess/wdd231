@@ -1,0 +1,148 @@
+:root {
+    --primary: #1D3557;
+    --secondary: #457B9D;
+    --background: #F1FAEE;
+    --accent: #E63946;
+    --text: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+}
+
+section {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+ul {
+    margin-left: 1.5rem;
+}
+
+.cores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cor {
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+.azul-escuro {
+    background: #1D3557;
+}
+
+.branco {
+    background: #F1FAEE;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.azul {
+    background: #457B9D;
+}
+
+.vermelho {
+    background: #E63946;
+}
+
+.playfair {
+    font-family: "Playfair Display", serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
+
+pre {
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    overflow-x: auto;
+    font-family: "Courier New", monospace;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    white-space: pre;
+}
+
+article {
+    margin-bottom: 2rem;
+}
