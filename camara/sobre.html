@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sobre | Câmara de Comércio de São Paulo</title>
+
+    <meta name="description"
+        content="Conheça a cidade de São Paulo e descubra alguns dos principais pontos turísticos, culturais e econômicos da região.">
+    <meta name="author" content="Gabriel Wallace Soares dos Santos">
+
+    <meta property="og:title" content="Sobre | Câmara de Comércio de São Paulo">
+    <meta property="og:description"
+        content="Conheça a cidade de São Paulo e seus principais pontos de interesse.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="imagens/logo.webp">
+    <meta property="og:url"
+        content="https://gabrielwallacess.github.io/wdd231/camara/sobre.html">
+
+    <link rel="icon" href="imagens/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos/telas-pequenas.css">
+    <link rel="stylesheet" href="estilos/telas-grandes.css">
+    <link rel="stylesheet" href="estilos/sobre.css">
+
+    <script src="scripts/navegacao.js" defer></script>
+    <script src="scripts/data.js" defer></script>
+    <script src="scripts/sobre.js" type="module"></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="imagens/logo.webp" alt="Logo da Câmara de Comércio de São Paulo" width="80" height="80">
+            <div>
+                <h1>Câmara de Comércio</h1>
+                <p>São Paulo</p>
+            </div>
+        </div>
+
+        <button id="menu" aria-label="Abrir menu de navegação"></button>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="diretorio.html">Diretório</a></li>
+                <li><a href="associacao.html">Associe-se</a></li>
+                <li><a class="active" href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="sobre-grid">
+
+        <section class="introducao">
+            <h2>Conheça São Paulo</h2>
+
+            <p>
+                São Paulo é o maior centro financeiro, empresarial e cultural da América
+                Latina. A cidade reúne importantes empresas, universidades, centros de
+                inovação, espaços culturais e atrações turísticas que fortalecem o ambiente
+                de negócios e impulsionam o desenvolvimento econômico da região.
+            </p>
+        </section>
+
+        <aside class="visita">
+            <h2>Última visita</h2>
+
+            <p id="mensagem-visita">
+                Carregando informações...
+            </p>
+        </aside>
+
+        <section class="galeria">
+
+            <h2>Pontos de Interesse</h2>
+
+            <div id="cards" class="cards">
+                <!-- Os cartões serão criados pelo JavaScript -->
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <section class="contato">
+            <h3>Câmara de Comércio de São Paulo</h3>
+
+            <p>São Paulo - SP</p>
+            <p>contato@camarasp.org</p>
+            <p>(11) 3333-3333</p>
+        </section>
+
+        <section class="autor">
+            <p>&copy; <span id="currentyear"></span> Câmara de Comércio de São Paulo</p>
+            <p>Gabriel Wallace Soares dos Santos</p>
+            <p>WDD 231 - Web Frontend Development I</p>
+            <p id="lastModified"></p>
+        </section>
+
+    </footer>
+
+</body>
+</html>
+```
