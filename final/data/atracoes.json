@@ -1,0 +1,121 @@
+[
+{
+"nome":"Obelisco",
+"categoria":"Monumento",
+"bairro":"Centro",
+"descricao":"Um dos maiores símbolos de Buenos Aires, localizado na Avenida 9 de Julio. O monumento foi inaugurado em 1936 para celebrar o quarto centenário da fundação da cidade e atualmente é um dos principais pontos para fotos e eventos culturais.",
+"imagem":"obelisco.webp"
+},
+
+{
+"nome":"Caminito",
+"categoria":"Cultura",
+"bairro":"La Boca",
+"descricao":"Uma das ruas mais famosas de Buenos Aires, conhecida por suas casas coloridas, artistas de rua, apresentações de tango e forte ligação com a história do bairro La Boca.",
+"imagem":"caminito.webp"
+},
+
+{
+"nome":"Casa Rosada",
+"categoria":"História",
+"bairro":"Monserrat",
+"descricao":"Sede oficial da Presidência da Argentina e um dos edifícios históricos mais importantes do país. Sua fachada rosa e sua localização na Plaza de Mayo fazem dela uma das atrações mais visitadas da cidade.",
+"imagem":"casarosada.webp"
+},
+
+{
+"nome":"Puerto Madero",
+"categoria":"Gastronomia",
+"bairro":"Puerto Madero",
+"descricao":"Um dos bairros mais modernos de Buenos Aires, construído em uma antiga área portuária revitalizada. Possui restaurantes sofisticados, bares, parques e uma bela vista para o Rio da Prata.",
+"imagem":"puertomadero.webp"
+},
+
+{
+"nome":"Teatro Colón",
+"categoria":"Cultura",
+"bairro":"Centro",
+"descricao":"Um dos teatros de ópera mais importantes do mundo, reconhecido pela sua arquitetura, excelente acústica e apresentações de música clássica, ópera e balé.",
+"imagem":"teatrocolon.webp"
+},
+
+{
+"nome":"Jardim Japonês",
+"categoria":"Parque",
+"bairro":"Palermo",
+"descricao":"Um dos espaços verdes mais tranquilos de Buenos Aires. O jardim possui lagos, pontes tradicionais, plantas japonesas e ambientes ideais para caminhadas e momentos de relaxamento.",
+"imagem":"jardimjapones.webp"
+},
+
+{
+"nome":"Bosques de Palermo",
+"categoria":"Natureza",
+"bairro":"Palermo",
+"descricao":"Grande área verde formada por parques, lagos e jardins, sendo um dos locais preferidos dos moradores para caminhadas, passeios ao ar livre e atividades de lazer.",
+"imagem":"palermo.webp"
+},
+
+{
+"nome":"Livraria El Ateneo Grand Splendid",
+"categoria":"Cultura e Literatura",
+"bairro":"Recoleta",
+"descricao":"Considerada uma das livrarias mais bonitas do mundo, funciona em um antigo teatro de 1919. O local preserva sua arquitetura original, incluindo palco, camarotes e uma impressionante decoração histórica.",
+"imagem":"ateneo.webp"
+},
+
+{
+"nome":"Galerías Pacífico",
+"categoria":"Compras e Arquitetura",
+"bairro":"Centro",
+"descricao":"Centro comercial histórico localizado na famosa Calle Florida. O prédio se destaca pelos detalhes arquitetônicos, pela grande cúpula com pinturas artísticas e pela combinação entre compras e cultura.",
+"imagem":"galeriaspacifico.webp"
+},
+
+{
+"nome":"Feira de San Telmo",
+"categoria":"Cultura",
+"bairro":"San Telmo",
+"descricao":"Tradicional feira realizada principalmente aos domingos, famosa por antiguidades, artesanato, apresentações de tango, artistas de rua e pela atmosfera histórica do bairro mais antigo de Buenos Aires.",
+"imagem":"santelmo.webp"
+},
+
+{
+"nome":"Recoleta",
+"categoria":"Turismo",
+"bairro":"Recoleta",
+"descricao":"Um dos bairros mais elegantes e tradicionais de Buenos Aires, conhecido por sua arquitetura europeia, cafés, museus, centros culturais e pelo famoso Cemitério da Recoleta.",
+"imagem":"recoleta.webp"
+},
+
+{
+"nome":"Planetário Galileo Galilei",
+"categoria":"Ciência",
+"bairro":"Palermo",
+"descricao":"Centro dedicado à divulgação científica e astronomia. Possui exposições interativas e uma cúpula onde são realizadas apresentações sobre o universo e os planetas.",
+"imagem":"planetario.webp"
+},
+
+{
+"nome":"Floralis Genérica",
+"categoria":"Monumento",
+"bairro":"Recoleta",
+"descricao":"Grande escultura metálica em formato de flor criada pelo arquiteto Eduardo Catalano. Suas pétalas se movimentam de acordo com a luz solar, tornando-se uma das obras mais fotografadas da cidade.",
+"imagem":"floralis.webp"
+},
+
+{
+"nome":"Café Tortoni",
+"categoria":"Gastronomia",
+"bairro":"Centro",
+"descricao":"O café mais antigo e famoso de Buenos Aires, inaugurado em 1858. O local mantém uma decoração histórica e já recebeu importantes artistas, escritores e personalidades argentinas.",
+"imagem":"cafetortoni.webp"
+},
+
+{
+"nome":"La Bombonera",
+"categoria":"Esporte",
+"bairro":"La Boca",
+"descricao":"Estádio histórico do Club Atlético Boca Juniors, famoso pela sua arquitetura única e pela paixão dos torcedores. É considerado um dos locais mais emblemáticos do futebol argentino.",
+"imagem":"bombonera.webp"
+}
+]

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Informações Úteis | Guia Buenos Aires</title>
+
+
+<meta name="description" content="Informações úteis para turistas em Buenos Aires, incluindo clima, transporte e dicas de viagem.">
+
+
+<meta name="author" content="Gabriel Wallace Soares dos Santos">
+
+
+<meta property="og:title" content="Informações Úteis Buenos Aires">
+
+<meta property="og:description" content="Veja dicas de transporte, clima e recomendações para sua viagem.">
+
+
+<link rel="icon" href="imagens/favicon.png">
+
+
+<link rel="stylesheet" href="styles/base.css">
+
+<link rel="stylesheet" href="styles/large.css">
+
+
+<script type="module" src="scripts/navigation.js"></script>
+
+<script type="module" src="scripts/informacoes.js"></script>
+
+
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<div class="logo">
+
+<img src="imagens/logo.png" alt="Logo Guia Buenos Aires">
+
+<span>Guia Buenos Aires</span>
+
+</div>
+
+
+<button 
+id="menu-button"
+aria-label="Abrir menu de navegação">
+
+☰
+
+</button>
+
+
+<nav id="menu">
+
+<a href="index.html">Início</a>
+
+<a href="locais.html">Locais</a>
+
+<a href="informacoes.html">Informações</a>
+
+</nav>
+
+
+</header>
+
+
+
+<main>
+
+
+<h1>
+Informações Úteis
+</h1>
+
+
+
+<section>
+
+
+<h2>
+Previsão do Tempo
+</h2>
+
+
+<div id="weather">
+
+Carregando clima...
+
+</div>
+
+
+</section>
+
+
+
+<section>
+
+
+<h2>
+Transporte em Buenos Aires
+</h2>
+
+
+<ul>
+
+<li>
+Subte: metrô rápido e econômico.
+</li>
+
+<li>
+Ônibus: ampla cobertura pela cidade.
+</li>
+
+<li>
+Táxis: disponíveis em diversas regiões.
+</li>
+
+<li>
+Aplicativos: Uber e similares.
+</li>
+
+</ul>
+
+
+</section>
+
+
+
+
+<section>
+
+
+<h2>
+Planeje sua viagem
+</h2>
+
+
+
+<form action="obrigado.html" method="get">
+
+
+<label for="nome">
+Nome:
+</label>
+
+
+<input 
+type="text"
+id="nome"
+name="nome"
+required>
+
+
+
+<label for="email">
+Email:
+</label>
+
+
+<input
+type="email"
+id="email"
+name="email"
+required>
+
+
+
+<label for="data">
+Data da viagem:
+</label>
+
+
+<input
+type="date"
+id="data"
+name="data"
+required>
+
+
+
+<label for="pessoas">
+Quantidade de pessoas:
+</label>
+
+
+<input
+type="number"
+id="pessoas"
+name="pessoas"
+min="1"
+required>
+
+
+
+<label for="mensagem">
+Mensagem:
+</label>
+
+
+<textarea
+id="mensagem"
+name="mensagem">
+</textarea>
+
+
+
+<button type="submit">
+Enviar planejamento
+</button>
+
+
+
+</form>
+
+
+</section>
+
+
+</main>
+
+
+
+<footer>
+
+<p>
+© 2026 Guia Buenos Aires
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
