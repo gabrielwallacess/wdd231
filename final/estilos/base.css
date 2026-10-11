@@ -3,7 +3,7 @@
 --primary:#1D3557;
 --secondary:#457B9D;
 --background:#F1FAEE;
---accent:#E63946;
+--accent:#C1121F;
 --text:#333;
 
 }
@@ -242,17 +242,16 @@ border-radius:8px;
 
 .card button{
 
-background:#E63946;
+background:var(--accent);
 
 color:white;
 
-border:none;
+}
 
-padding:10px;
+.button:hover,
+.card button:hover{
 
-border-radius:5px;
-
-cursor:pointer;
+background:#9B0D18;
 
 }
 
